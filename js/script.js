@@ -58,9 +58,8 @@
    confirm.play();
    confirm.loop = false;
    document.getElementById("imgCand").src = "img/compvoto.jpg";
-   timeoutID = setTimeout(document.getElementById("imgCand").src = "img/fim.jpg", 2000);
- 
-   
+   timeoutID = setTimeout(document.getElementById("imgCand").src = "img/fim.jpg", 2000); 
+   document.getElementById("cand").value= "";
  }
 
  function ajuda(){
