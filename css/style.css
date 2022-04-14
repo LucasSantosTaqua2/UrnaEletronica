@@ -12,12 +12,28 @@
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center; 
+  
     align-items: center;
     background-color:white;  
     padding-bottom: 70px;
     border: 1px solid black;
     box-shadow: 10px 10px 60px 10px black;          
+}
+.proposta{
+    font-size: 16pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.prop{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    font-size: 16pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .nome{
     display:flex;
@@ -52,7 +68,9 @@
     background-color: black;
     color: white;
     font-size: 20pt;
-
+}
+.helpname{
+    text-decoration: none;
 }
 
 .tec{
@@ -126,6 +144,11 @@
 
 }
 
+#fotocan{
+    width: 220px;
+    height: 250px;
+}
+
 body{
     background-color: #DCDCDC;
 
@@ -137,6 +160,35 @@ body{
 }
 
 #help{
+    font-size: 16pt;
+    background-color: bisque;
+}
+
+.txtProp{
+    font-size: 16pt;
+}
+
+#c1{
+    font-size: 16pt;
+    background-color: bisque;
+}
+#c2{
+    font-size: 16pt;
+    background-color: bisque;
+}
+#c3{
+    font-size: 16pt;
+    background-color: bisque;
+}
+#c4{
+    font-size: 16pt;
+    background-color: bisque;
+}
+#c5{
+    font-size: 16pt;
+    background-color: bisque;
+}
+#c6{
     font-size: 16pt;
     background-color: bisque;
 }
