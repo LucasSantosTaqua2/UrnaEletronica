@@ -22,8 +22,8 @@
         document.getElementById("imgCand").src = "img/noelnatal.jpg";
         document.getElementById("nomeCand").innerText = " Noel Natal";
      }else if(vVoto == 15){
-        document.getElementById("imgCand").src = "img/zedasdrogas.jpg";
-        document.getElementById("nomeCand").innerText = " Zé da Drogas";
+        document.getElementById("imgCand").src = "img/ze.jpg";
+        document.getElementById("nomeCand").innerText = " Zé Doidinho";
      }else if(vVoto == 24){
         document.getElementById("imgCand").src = "img/joaodabriga.jpg";
         document.getElementById("nomeCand").innerText = " João da Briga";
@@ -91,23 +91,24 @@ function helpimage1(){
 function helpimage2(){
    document.getElementById("c2").click;
    document.getElementById("fotocan").src = "img/galodoido.jpg";
-   document.getElementById("proposta").innerText = "Milho sera gratis para sempre, o preço da carne bovino ira despencar (para não comerem mais frango), dentre outras";
+   document.getElementById("proposta").innerText = "Milho sera grátis para sempre, o preço da carne bovina irá despencar (para não comerem mais frango), dentre outras.";
    const c2 = new Audio('sound/galodoido.mp3');
         c2.play();
         c2.loop = false;
+        
 }
 function helpimage3(){
    document.getElementById("c3").click;
-   document.getElementById("fotocan").src = "img/zedasdrogas.jpg";
-   document.getElementById("proposta").innerText = "Legalização de tudo no pais, leis mais leves, e crianças poderão dirigir.";
-   const c3 = new Audio('sound/zedasdrogas.mp3');
+   document.getElementById("fotocan").src = "img/ze.jpg";
+   document.getElementById("proposta").innerText = "Dar atenção a tudo que não importa, férias escolares de 11 messes, e dinheiro grátis para todos.";
+   const c3 = new Audio('sound/ze.mp3');
         c3.play();
         c3.loop = false;
 }
 function helpimage4(){
    document.getElementById("c4").click;
    document.getElementById("fotocan").src = "img/noelnatal.jpg";
-   document.getElementById("proposta").innerText = "HO-HO-HO natal todo dia, ovo de pascoa gratis.";
+   document.getElementById("proposta").innerText = "HO-HO-HO natal todo dia, ovo de pascoa grátis.";
    const c4 = new Audio('sound/noelnatal.mp3');
         c4.play();
         c4.loop = false;
@@ -115,7 +116,7 @@ function helpimage4(){
 function helpimage5(){
    document.getElementById("c5").click;
    document.getElementById("fotocan").src = "img/joaodabriga.jpg";
-   document.getElementById("proposta").innerText = "Vou lutar pelo pais, como lutei nesta luta da foto, apanhei mas to de pé, igual o Brasileiro... Que gosta de sofrer.";
+   document.getElementById("proposta").innerText = "Vou lutar pelo país, como lutei nesta luta da foto, apanhei mas tô de pé, igual o Brasileiro... Que gosta de sofrer.";
    const c5 = new Audio('sound/joaodabriga.mp3');
         c5.play();
         c5.loop = false;
@@ -124,7 +125,7 @@ function helpimage6(){
    document.getElementById("c6").click;
    document.getElementById("fotocan").src = "img/cirirocego.jpg";
    document.getElementById("proposta").innerText = "Dinheiro para todos comprarem alimento. Mas vão se procurar trabalhar.";
-   const c6 = new Audio('sound/ciriro.mp3');
+   const c6 = new Audio('sound/cirirocego.mp3');
         c6.play();
         c6.loop = false;
 }
