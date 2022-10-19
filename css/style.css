@@ -3,7 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center; 
-    align-items: center;
+    align-items: left;
     background-color:white;
     border: 1px solid grey;    
     box-shadow: 10px 10px 60px 10px black;      
