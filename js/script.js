@@ -129,4 +129,4 @@ function helpimage6(){
         c6.play();
         c6.loop = false;
 }
- 
+ let jao = parseInt(fodase.getElementById("cand").value);
