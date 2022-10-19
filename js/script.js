@@ -33,7 +33,7 @@
      }else if(vVoto == 11){
       document.getElementById("imgCand").src = "img/merezperece.jpg";
       document.getElementById("nomeCand").innerText = " Merez Perece";
-     }else if (vVoto != 11 || 65 || 24 || 15 || 19 || 13) {
+     }else if (vVoto != 11 || 65 || 24 || 15 || 16 || 14) {
       document.getElementById("imgCand").src = "img/inva.jpg";
       document.getElementById("nomeCand").innerText = " Voto Invalido";
      }
