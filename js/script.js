@@ -56,7 +56,7 @@
     voto = "";  
     const tecla = new Audio('sound/tecla.mp3');
         tecla.play();
-        tecla.loop = false;
+        tecla.loop = true;
  }
 
  function confirm(){
