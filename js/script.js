@@ -14,29 +14,42 @@
  }
 
  function gerarImagem(){
+     let imgSrc = '';
+     let nomeCand = '';
      let vVoto = parseInt(document.getElementById("cand").value);
-     if(vVoto == 13){
-         document.getElementById("imgCand").src = "img/galodoido.jpg";
-         document.getElementById("nomeCand").innerText = " Galo Doido";
-     }else if(vVoto == 19){
-        document.getElementById("imgCand").src = "img/noelnatal.jpg";
-        document.getElementById("nomeCand").innerText = " Noel Natal";
-     }else if(vVoto == 15){
-        document.getElementById("imgCand").src = "img/ze.jpg";
-        document.getElementById("nomeCand").innerText = " Zé Doidinho";
-     }else if(vVoto == 24){
-        document.getElementById("imgCand").src = "img/joaodabriga.jpg";
-        document.getElementById("nomeCand").innerText = " João da Briga";
-     }else if(vVoto == 65){
-        document.getElementById("imgCand").src = "img/cirirocego.jpg";
-        document.getElementById("nomeCand").innerText = " Ciriro Cego";
-     }else if(vVoto == 11){
-      document.getElementById("imgCand").src = "img/merezperece.jpg";
-      document.getElementById("nomeCand").innerText = " Merez Perece";
-     }else if (vVoto != 11 || 65 || 24 || 15 || 16 || 14) {
-      document.getElementById("imgCand").src = "img/inva.jpg";
-      document.getElementById("nomeCand").innerText = " Voto Invalido";
+
+     switch (vVoto) {
+       case 13:
+         imgSrc = "img/galodoido.jpg";
+         nomeCand = " Galo Doido";
+         break;
+       case 19:
+          imgSrc = "img/noelnatal.jpg";
+          nomeCand = " Noel Natal";
+          break;
+       case 15:
+          imgSrc = "img/ze.jpg";
+          nomeCand = " Zé Doidinho";
+          break;
+       case 24:
+          imgSrc = "img/joaodabriga.jpg";
+          nomeCand = " João da Briga";
+          break;
+       case 65:
+          imgSrc = "img/cirirocego.jpg";
+          nomeCand = " Ciriro Cego";
+          break;
+       case 11:
+          imgSrc = "img/merezperece.jpg";
+          nomeCand = " Merez Perece";
+          break;
+       default:
+          imgSrc = "img/inva.jpg";
+          nomeCand = " Voto Invalido";       
      }
+   
+     document.getElementById("imgCand").src = imgSrc;
+     document.getElementById("nomeCand").innerText = nomeCand;
  }
 
  function apagar(){
